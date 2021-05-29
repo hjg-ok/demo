@@ -24,4 +24,11 @@ public class ControllerTest {
 //        System.out.println("pwd:"+pwd);
         return "hello";
     }
+
+    public String testGit(User user) {
+        System.out.println("user:" + user);
+        System.out.println("test Spring Git");
+        return "Spring Git";
+    }
+
 }
