@@ -5,6 +5,7 @@ public class User {
     public String user;
     public String pwd;
 
+    public String Phone;
     public String getUser() {
         return user;
     }
